@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* nav li .cross{
+    display:none;
+} */
+/* nav menu{
+    display: none;
+
+} */
+@media screen  and (max-width:800px){
+    nav {
+    background: #ff004f;
+    position: fixed;
+    top:0;
+    right:0;
+    width:200px;
+    height: 100vh;
+    padding-top:50px;
+    z-index: 2;
+    }
+    /* nav ul { */
+        /* flex-direction: column; */
+        /* margin:25px; */
+    /* } */
+    nav ul{
+        flex-direction: column;
+        margin-top:25px;
+        
+    }
+    nav li .cross {
+        position:absolute;
+        top:25px;
+        left:25px;
+        cursor: pointer;
+    }
+
+
+}
